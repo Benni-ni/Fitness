@@ -1,0 +1,103 @@
+body{
+     background-image: url(./image/BG\ fitness.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+   
+}
+.Navbar{
+    margin-left: 50px;
+}
+.Nav{
+    color: red;
+    /* background: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 0);
+     */
+}
+.button{
+    background-color: white;
+    margin-top: -20px;
+    height: 60px;
+}
+#About{
+    background-color: rgba(255, 255, 255,) ;
+    padding: 10px;
+    
+}
+.card{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+.card-footer{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    
+}
+input[type=text]{
+    width: 95%;
+    background: rgb(227, 236, 240);
+    padding: 3px;
+    color: brown;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 40px;
+}
+input[type=number]{
+    width: 95%;
+    background: rgb(227, 236, 240);
+    padding: 3px;
+    color: brown;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 40px;
+}
+input[type=email]{
+    width: 95%;
+    background: rgb(227, 236, 240);
+    padding: 3px;
+    color: brown;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 40px;
+}
+input[type=text]:hover{
+    
+    color: black;
+}
+textarea{
+    width: 95%;
+    background: rgb(227, 236, 240);
+    padding: 5px;
+    color: brown;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+textarea:hover{
+    
+    color:black;
+}
+
+.submit{
+    float: right;
+    padding: 7px;
+    margin: 5px;
+    border-radius: 8px;
+}
+.submit:hover{
+    background: red;
+}
+.mb-33 input{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    width: 95%;
+}
